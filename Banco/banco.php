@@ -1,0 +1,1 @@
+<?php // Banco de dados. ?> 

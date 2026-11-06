@@ -1,0 +1,107 @@
+.topo {
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #C59BEB;
+}
+
+.topo .navbar-brand {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start; /*Alinha no topo abaixo da nav*/
+    justify-content: center;
+}
+
+/*area do titulo e da caixa*/
+.painel-login {
+    width: 100%;
+    max-width: 420px;
+    margin-top: 6rem; 
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+    color: #9a54d8;
+}
+
+.caixa {
+    width: 100%;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px 2px rgba(197, 155, 235, 0.8);
+}
+
+.form-label {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    color: #7c7c7c;
+}
+
+.campo-texto {
+    border-radius: 12px;
+    font-size: 1.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.botao-entrar {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-radius: 12px;
+    background-color: #C59BEB;
+    border-color: #C59BEB;
+    color: #ffffff;
+}
+
+.botao-entrar:hover {
+    background-color: #B383E2;
+    border-color: #B383E2;
+    color: #ffffff;
+}
+
+
+.container-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .link-esqueci-senha {
+    color: #6c757d; 
+    font-size: 0.875rem; 
+    text-decoration: none; 
+    /*text-underline-offset: px;*/
+    transition: all 0.5s ease-in-out; 
+  }
+  
+  .link-esqueci-senha:hover {
+    color: #C59BEB;
+    text-decoration: underline; 
+  }
+  
