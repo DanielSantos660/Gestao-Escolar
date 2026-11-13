@@ -1,5 +1,9 @@
+<?php // Tela de login com ramificação para aluno, professor ou admin. 
+include 'Banco/conn.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Css/style.css">
 </head>
+
 <body>
 
     <!-- Nav -->
@@ -23,15 +28,17 @@
             <h2 class="titulo">Login</h2>
             <div class="caixa">
                 <form>
-                    
+
                     <div class="mb-4">
                         <label for="email" class="form-label">E-mail</label>
-                        <input type="email" class="form-control form-control-lg campo-texto" id="email" name="email" placeholder="seu.email@email.com" required>
+                        <input type="email" class="form-control form-control-lg campo-texto" id="email" name="email"
+                            placeholder="seu.email@email.com" required>
                     </div>
 
                     <div class="mb-4">
                         <label for="senha" class="form-label">Senha</label>
-                        <input type="password" class="form-control form-control-lg campo-texto" id="senha" name="senha" placeholder="••••••••" required>
+                        <input type="password" class="form-control form-control-lg campo-texto" id="senha" name="senha"
+                            placeholder="••••••••" required>
                     </div>
 
                     <div class="mt-4">
@@ -51,4 +58,5 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
